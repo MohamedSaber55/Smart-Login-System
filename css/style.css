@@ -1,0 +1,81 @@
+
+body {
+    background: var(--main-color);
+    font-family: 'Titillium Web', sans-serif;
+}
+:root {
+    --main-color: #24353f;
+    --second-color: #17a2b8;
+}
+
+input:focus{
+    border-color:var(--second-color) !important ;
+    outline:0 !important;
+    box-shadow: none !important;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.login-form {
+    height: 100vh;
+}
+.login-form .container {
+    height: 100%;
+}
+.login-form .container .row {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.login-form .container .row form {
+    background-color: var(--main-color);
+    box-shadow: 0 0 40px 20px rgb(0 0 0 / 35%);
+    padding: 50px;
+}
+.login-form .container .row form h1 {
+    color: var(--second-color);
+}
+.login-form .container .row form input {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.login-form .container .row form .btn {
+    background-color: var(--main-color);
+    border-color: var(--second-color);
+    color : var(--second-color);
+    transition: background-color 0.2s linear , color 0.2s linear;
+
+}
+.login-form .container .row form .btn:hover{
+    background-color: var(--second-color);
+    color: white;
+}
+.login-form .container .row form p a {
+    transition: color 0.2s linear;
+}
+.login-form .container .row form p a:hover {
+    text-decoration: underline;
+    color: var(--second-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------home Page------------------------------------------------*/
+
+.logo a {
+    font-size: 20px;
+}
+.logo a:hover {
+    color: var(--second-color)
+}
+.home {
+    height: 88vh;
+}
